@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form class="w-25 m-auto p-5">
+      <div class="form-floating">
+        <input
+          type="text"
+          required
+          placeholder="Enter your name"
+          class="form-control"
+        />
+        <label class="form-label">Name</label>
+      </div>
+
+      <br />
+      <label for="" class="form-label">Father's name</label>
+      <input
+        type="text"
+        required
+        placeholder="Enter your name"
+        class="form-control"
+      />
+      <br />
+      <label for="" class="form-label">E-mail</label>
+      <input type="email" class="form-control" />
+      <br />
+      <label for="" class="form-label">Phone No</label>
+      <input type="number" class="form-control" />
+      <br />
+      <label for="" class="form-label">Gender:-</label>
+      <input type="radio" name="gender" class="form-check-input" />
+      <label for="" class="form-check-label">Male</label>
+      <input type="radio" name="gender" class="form-check-input" />
+      <label for="" class="form-check-label">Female</label>
+      <br />
+      <label for="" class="form-label">Course:-</label>
+      <input type="checkbox" class="form-check-input" />
+      <label for="java" class="form-check-label">Java</label>
+      <input type="checkbox" class="form-check-input" />
+      <label for="Python" class="form-check-label">Python</label>
+      <input type="checkbox" class="form-check-input" />
+      <label for="javascript" class="form-check-label">Javascript</label>
+      <input type="checkbox" class="form-check-input" />
+      <label for="Swift" class="form-check-label">Swift</label>
+      <br />
+      <select class="form-select">
+        <option value="-1">Select language</option>
+        <option value="">java</option>
+        <option value="">Javascript</option>
+        <option value="">Python</option>
+        <option value="">Swift</option>
+      </select>
+    </form>
+
+    <div class="input-group w-25 m-auto">
+        <span class="input-group-text">Username</span>
+        <input type="text" class="form-control ">
+    </div>
+  </body> 
